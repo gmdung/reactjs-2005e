@@ -1,0 +1,120 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #d8a997;
+}
+.form-pet {
+    height: 500px;
+    width: 800px;
+    background-color: blue;
+    margin: 50px 200px;
+}
+.image {
+    background-color: #7f7182;
+    width: 300px;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+img {
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-55%);
+}
+.form-input {
+    height: 500px;
+    width: 500px;
+    background-color: #fac7c3;
+    float: left;
+}
+.row {
+	height: 70px;
+	width: 100%;
+}
+.max {
+	height: 110px
+}
+[class^="col-"] {
+	float: left;
+}
+.col-1 {
+	height: 100%;
+	width: 500px;
+    background-color: ;
+    float: left;
+    position: relative;
+}
+.col-2 {
+	height: 100%;
+    width: 250px;
+    float: left;
+    position: relative;
+}
+.value {
+    background-color: white;
+    position: absolute;
+    width: 170px;
+    height: 35px;
+    left: 40px;
+    bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.label{
+    width: calc((1/2)*100%);
+    border-radius: 3px;
+    margin: 3px;
+}
+.long-value {
+    height: 35px;
+    width: 420px;
+}
+.long-value .label {
+    width: calc((1/4)*100%);
+    border-radius: 3px;
+}
+.uninput input {
+    display: none;
+}
+.input:checked + .label{
+    background: #f8aca6;
+}
+h1, p {
+    margin-left: 40px;
+}
+input {
+    margin-left: 40px;
+    height: 30px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0px;
+}
+.confirm {
+    background-color: white;
+}
+button {
+    outline: none;
+    height: 35px;
+    width: 90px;
+    border-radius: 20px;
+    border: 2px solid #807083;
+}
+.back {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.next {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+button:hover {
+    background-color: #807083;
+}
