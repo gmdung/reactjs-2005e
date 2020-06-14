@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <div class="form-pet">
+            <div class="image">
+                <img width="200px" height="200px"
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-542207-jpeg.png"
+                alt="ảnh này không tồn tại">
+            </div>
+            <div class="form-input">
+                <div class="row max">
+                    <div class="col-1">
+                        <h1>Yay, puppies! Ensure your</h1>
+                        <h1>pup gets the best care!</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <p>Name</p>
+                        <input type="text" placeholder="Pet's name">
+                    </div>
+                    <div class="col-2">
+                        <input type="file" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <p>Breed</p>
+                        <input type="text" placeholder="Pet's Breed">
+                    </div>
+                    <div class="col-2">
+                        <p>Birthday</p>
+                        <input type="date" placeholder="MM/DD/YYY">
+                    </div>
+                </div>
+                <div class="row uninput">
+                    <div class="col-2">
+                        <div class="key">
+                            <p>Gender</p>
+                        </div>
+                        <div class="value">
+                            <input type="radio" name="gender" id="female" class="input" checked   >
+                            <label for="female" class="label">Female</label>
+                            <input type="radio" name="gender" id="male" class="input">
+                            <label for="male" class="label">Male</label>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="key">
+                            <p>Spayed or Neutered</p>
+                        </div>
+                        <div class="value">
+                            <input type="radio" name="Spayed or Neutered" id="spayed" class="input" checked   >
+                            <label for="spayed" class="label">Spayed</label>
+                            <input type="radio" name="Spayed or Neutered" id="neutered" class="input">
+                            <label for="neutered" class="label">Neutered</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row uninput">
+                    <div class="col-1">
+                        <div class="key">
+                            <p>weight</p>
+                        </div>
+                        <div class="value long-value">
+                            <input type="radio" name="weight" id="latasa" class="input" checked>
+                            <label for="latasa" class="label">0-25lbs</label>
+                            <input type="radio" name="weight" id="shiba" class="input">
+                            <label for="shiba" class="label">25-50lbs</label>
+                            <input type="radio" name="weight" id="bull" class="input">
+                            <label for="bull" class="label">50-100lbs</label>
+                            <input type="radio" name="weight" id="husky" class="input">
+                            <label for="husky" class="label">100+lbs</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row max confirm">
+                    <div class="col-1">
+                        <button type="reset" name="reset" class="back" aria-checked="true">Back</button>
+                        <button type="submit" name="next" class="next">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

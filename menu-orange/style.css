@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    width: 1200px;
+    height: 800px;
+    background-color: #bfbfbf;
+    position: relative;
+}
+.orange {
+    width: 1000px;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: #fe8050;
+    display: flex;
+}
+
+[class^="col-"] {
+    width: 80px;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
+.col-1 {
+    background-color: #434542;
+}
+.col-8 {
+    flex-grow: 1;
+    padding: 15px 15px;
+    text-align: -webkit-right;
+}
